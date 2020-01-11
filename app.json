@@ -1,0 +1,40 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/jikuaidi/jikuaidi",
+    "pages/my/my"
+  ],
+  
+  "window":{
+    "navigationBarTitleText":"快递查询",
+    "navigationBarBackgroundColor":"#3481EB"
+  },
+
+  "tabBar":{
+    "color":"#AAAAAA",
+    "selectedColor":"#3481EB",
+    "backgroundColor":"#FFFFFF",
+    "list":[
+      {
+        "text":"查快递",
+        "pagePath":"pages/index/index",
+        "iconPath":"resource/images/search.png",
+        "selectedIconPath":"resource/images/search_select.png"
+      },
+      
+      {
+      "text": "寄快递",
+      "pagePath": "pages/jikuaidi/jikuaidi",
+      "iconPath": "resource/images/jikuaidi.png",
+      "selectedIconPath": "resource/images/jikuaidi_select.png"
+      },
+      
+      {
+      "text": "我的",
+      "pagePath": "pages/my/my",
+      "iconPath": "resource/images/my.png",
+      "selectedIconPath": "resource/images/my_select.png"
+      }
+    ]
+  }
+}

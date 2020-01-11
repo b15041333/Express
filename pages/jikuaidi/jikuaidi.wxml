@@ -1,0 +1,6 @@
+<view id="viewNotification">
+攻城狮小哥正在努力开发这部分内容^v^
+</view>
+<view id="viewLockedBlock">
+  <image id="lockedIcon" src="../../resource/images/locked.png"> </image>
+</view>

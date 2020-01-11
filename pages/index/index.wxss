@@ -1,0 +1,50 @@
+
+page{
+  background:#F0EFF4;
+}
+
+input{
+  position:absolute;
+  left:5rpx;
+  top:25rpx; 
+}
+
+.expressNum{
+  border:1rpx solid #FFF;
+  background:#FFF;
+  padding:15rpx;
+  border-radius:20rpx;
+  margin:5%;
+  width:85%;
+}
+
+.radioGroup{
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content:center;
+  padding:0 5%;
+}
+
+.radio{
+  width:33.33%;
+  margin:20rpx 0;
+
+}
+
+.queryBtn{
+  margin:5%;
+  background:#3481EB;
+  color:#FFF;
+  width:80%;
+}
+
+.expressInfo{
+  margin:5%;
+  height:500rpx;
+  font-size:30rpx;
+}
+
+.expressInfo view{
+  padding:20rpx 0;
+}

@@ -1,0 +1,22 @@
+page{
+  background:#F0EFF4;
+}
+
+#lockedIcon{
+  width:256rpx;
+  height:360rpx;
+}
+
+#viewLockedBlock{
+  position:absolute;
+  left:248rpx;
+  top:300rpx;
+}
+
+#viewNotification{
+  position:absolute;
+  left:5%;
+  top:5%;
+  font-size:50rpx;
+  color:gray;
+}

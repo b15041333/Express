@@ -1,0 +1,15 @@
+<!--pages/index/index.wxml-->
+<view class="container" >
+  <input placeholder="请输入快递单号：" class="expressNum" bindinput="expressNumInput" />
+  <radio-group class="radioGroup" bindchange="radioChange" >
+    <label class="radio" wx:for="{{company}}" wx:key="true">
+      <radio value="{{item.no}}" color="#3481EB" checked="{{item.checked}}" />{{item.com}}
+    </label>
+  </radio-group>
+  <button class="queryBtn" bindtap="queryBtn">查询</button>
+  <scroll-view scroll-y="true" class="expressInfo">
+    <view wx:for="{{expressInfo}}" wx:key="true">
+      <text>{{item.remark}}({{item.datetime}})</text>
+    </view>
+  </scroll-view>
+</view>
